@@ -1,0 +1,77 @@
+body{
+	background-image: url(../images/gray_green.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	margin-top: 13%;
+}
+
+h1{
+	font-weight: lighter; 
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 8px;
+}
+
+div{
+	display: inline-block;
+	border: 5px solid white;
+	margin: 10px 10px 10px 33%;
+	padding: 100px 50px;
+	width: 400px;
+}
+
+#name{
+	letter-spacing: 4px;
+}
+
+#title{
+	letter-spacing: 5px;
+}
+
+hr{
+	width: 385px;
+	height: 2px;
+	background-color: white;
+	margin: auto;
+}
+
+#slogan{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: lighter;
+	font-size: 17px;
+	color: white;
+	text-align: center;
+	letter-spacing: 6px;
+	display: inline-block;
+	margin-left: 33%
+}
+
+ul{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	list-style: none;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: white;
+}
+
+a:hover{
+	color:#ED218B;
+}
+
+a:visited{
+	color:#ED218B;
+}
