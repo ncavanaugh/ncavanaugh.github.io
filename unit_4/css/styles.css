@@ -1,0 +1,143 @@
+
+@import 'https://fonts.googleapis.com/css?family=Cinzel|Cormorant+SC|Poiret+One';
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../images/gray_green_pink.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-size: 16px;
+	text-align: center;
+	margin: 0 auto;
+	/*margin-left: 16em;*/
+}
+
+header{
+	/*display: inline-block;*/
+	border: 5px solid white;
+	margin: auto;
+	padding: 5em 2.5em;
+	width: 400px;
+	position: relative;
+}
+
+/*#logo{
+	position: fixed;
+}*/
+
+#slogan{
+	margin-top: 8em;
+	position: relative;
+}
+
+h1{
+	font-weight: lighter; 
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 8px;
+}
+
+#name{
+	font-family: 'Cormorant SC', serif;
+	/*font-family: 'Poiret One', cursive;*/
+	letter-spacing: 4px;
+	font-size: 2em;
+	line-height: 2em;
+}
+
+#title{
+	font-family: 'Poiret One', cursive;
+	/*font-family: 'Cinzel', serif;*/
+	letter-spacing: 5px;
+	font-size: 2em;
+	line-height: 2em;
+}
+
+hr{
+	width: 385px;
+	height: 2px;
+	line-height: 1em;
+	background-color: white;
+	margin: auto;
+	border: none;
+}
+
+div{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: lighter;
+	font-size: 1em;
+	color: white;
+	letter-spacing: 6px;
+	padding: 1em;
+	margin: 0 auto;
+}
+
+nav{
+	margin-top: 1em;
+}
+
+.navlink{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: .8em;
+	padding: 1em 5.3em;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav a:link{
+	color: white;
+}
+footer a:link {
+	color:#BBDD40;
+}
+
+nav a:hover{
+	color: #ED218B;
+	/*border-bottom: solid 1px white;*/
+}
+
+nav a:visted{
+	color: #BBDD40;
+}
+
+footer a:hover{
+	color: #ED218B;
+}
+
+footer a:visted{
+	color: #ED218B;
+}
+
+footer{
+	background-color: white;
+	margin-top: 47em;
+	padding: 3em;
+}
+	
+.sociallink{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: 100;
+	color: #BBDD40;
+	font-size: .8em;
+	letter-spacing: 6px;
+	padding: 2em;
+	text-transform: uppercase;
+}
+
+img{
+	margin-top: 28%;
+	width: cover;
+}
