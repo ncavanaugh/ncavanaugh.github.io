@@ -1,0 +1,114 @@
+
+@import 'https://fonts.googleapis.com/css?family=Abril+Fatface|Cinzel|Josefin+Slab|Poiret+One';
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../images/gray_green.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	margin-top: 13%;
+	font-size: 16px;
+	position: absolute;
+}
+
+h1{
+	font-weight: lighter; 
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 8px;
+}
+
+#info{
+	display: inline-block;
+	border: 5px solid white;
+<<<<<<< Updated upstream
+	margin: 10px 10px 10px 35%;
+=======
+<<<<<<< HEAD
+	margin: 10px auto 10px 33%;
+=======
+	margin: 10px 10px 10px 35%;
+>>>>>>> origin/master
+>>>>>>> Stashed changes
+	padding: 100px 50px;
+	width: 400px;
+}
+
+#name{
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 4px;
+	font-size: 2em;
+}
+
+#title{
+	font-family: 'Cinzel', serif;
+	/*font-family: 'Josefin Slab', serif;
+	font-family: 'Abril Fatface', cursive;*/
+	letter-spacing: 5px;
+	font-size: 2em;
+}
+
+hr{
+	width: 385px;
+	height: 2px;
+	background-color: white;
+	margin: auto;
+}
+
+#slogan{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: lighter;
+	font-size: 1.05em;
+	color: white;
+	text-align: center;
+	letter-spacing: 6px;
+	display: inline-block;
+	margin-left: 35%
+}
+
+ul{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	list-style: none;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+<<<<<<< HEAD
+	font-size: .7em;
+=======
+	font-size: 12px;
+	margin-left: -2%;
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: white;
+}
+
+a:hover{
+	color:#ED218B;
+}
+
+a:visited{
+	color:#ED218B;
+}
+
+img{
+	margin-top: 28%;
+	width: cover;
+	position: absolute;
+}
