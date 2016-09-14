@@ -1,0 +1,163 @@
+
+@import 'https://fonts.googleapis.com/css?family=Cinzel|Cormorant+SC|Poiret+One';
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../images/gray_green_pink.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-size: 16px;
+	text-align: center;
+	margin: 0 auto;
+	/*margin-left: 16em;*/
+}
+
+header{
+    background-color:#FFED74;
+    border: 1px black solid;
+    padding: 20px;
+	/*display: inline-block;
+	border: 5px solid white;
+	padding: 5em 2.5em;*/
+	margin: auto;
+	width: 400px;
+	position: relative;
+}
+
+/*#logo{
+	position: fixed;
+}*/
+
+#slogan{
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+	margin-top: 8em;
+	position: relative;
+}
+
+h1{
+	font-weight: lighter; 
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 8px;
+}
+
+#name{
+	background-color:#FFED74;
+    border: 1px black solid;
+    padding: 20px;
+	font-family: 'Cormorant SC', serif;
+	/*font-family: 'Poiret One', cursive;*/
+	letter-spacing: 4px;
+	font-size: 2em;
+	line-height: 2em;
+}
+
+#title{
+	background-color:#FFED74;
+    border: 1px black solid;
+    padding: 20px;
+	font-family: 'Poiret One', cursive;
+	/*font-family: 'Cinzel', serif;*/
+	letter-spacing: 5px;
+	font-size: 2em;
+	line-height: 2em;
+}
+
+hr{
+	width: 385px;
+	height: 2px;
+	line-height: 1em;
+	background-color: white;
+	margin: auto;
+	border: none;
+}
+
+div{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: lighter;
+	font-size: 1em;
+	color: white;
+	letter-spacing: 6px;
+	padding: 1em;
+	margin: 0 auto;
+}
+
+nav{
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+	margin-top: 1em;
+}
+
+.navlink{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: .8em;
+	padding: 1em 5.3em;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav a:link{
+	color: white;
+}
+footer a:link {
+	color:#BBDD40;
+}
+
+nav a:hover{
+	color: #ED218B;
+	/*border-bottom: solid 1px white;*/
+}
+
+nav a:visted{
+	color: #BBDD40;
+}
+
+footer a:hover{
+	color: #ED218B;
+}
+
+footer a:visted{
+	color: #ED218B;
+}
+
+footer{
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+	/*background-color: white;*/
+	padding: 3em;
+}
+	
+.sociallink{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: 100;
+	color: #BBDD40;
+	font-size: .8em;
+	letter-spacing: 6px;
+	padding: 2em;
+	text-transform: uppercase;
+}
+
+img{
+	background-color: #FFC675;
+   	border: 1px black solid;
+    padding: 20px;
+	margin-top: 79%;
+	width: cover;
+}
