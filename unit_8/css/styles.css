@@ -1,0 +1,594 @@
+*{
+	margin: 0;
+	padding: 0;
+  	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;    
+  	-o-box-sizing: border-box;  
+  	box-sizing: border-box;
+ }
+
+body{
+	background: linear-gradient(black, /*#a6ce38*/ #ec208b, black); 
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-size: 16px;
+	text-align: center;
+	margin: auto 0;
+}
+
+#wrapper{
+  	width: 1200px;
+ 	margin: 0 auto;
+ 	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: lighter;
+	font-size: 100%;
+	color: white;
+	letter-spacing: 6px;
+	padding: 1em;
+}
+
+header{
+	border: 5px solid white;
+	margin: 0 auto;
+	padding: 75px 2.5em;
+	width: 495px;
+}
+
+#slogan{
+	margin: 0 auto;
+	letter-spacing: 6px;
+	padding-top: 30px;
+	padding-bottom: 18px;
+}
+
+span{
+  	color: #a6ce38;
+ 	font-size: 30px;
+  	letter-spacing: -1px;
+}
+
+h1{
+	font-weight: lighter; 
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 8px;
+  	margin: 0 auto;
+}
+
+#name{
+	letter-spacing: 4px;
+	font-size: 200%;
+	line-height: 200%;
+}
+
+#title{
+	letter-spacing: 5px;
+	font-size: 200%;
+	line-height: 200%;
+}
+
+hr{
+	width: 100%;
+	height: 2px;
+	line-height: 1em;
+	background-color: #a6ce38;
+	margin: 0 auto;
+	border: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav a{	
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	line-height: 55px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: .8em;
+  	padding: 5px 0 3px 0;
+  	margin: 0 65px;
+}
+
+nav a:link{
+	color: white;
+}
+
+nav a:visited{
+	color: white;
+}
+
+nav a:hover{
+	color: white;
+  	border-bottom: solid 2px #a6ce38;
+}
+
+nav a:active{
+	color: white;
+  	border-bottom: solid 2px #ec208b;
+}
+
+label{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	line-height: 55px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: .8em;
+  	padding: 5px 0 3px 0;
+  	margin: 0 65px;
+	display:none;
+}
+
+#toggle{
+	display: none;
+}
+
+main{
+ 	margin: 0 auto;
+  	width: 102%;
+  	display: inline-block;
+  	padding-top: 50px;
+	position:relative;
+}
+
+.box1{
+	/*background-image: url(../images/chicagofirst2.2.jpg);
+	background-repeat:no-repeat;*/
+	width: 24.5%;
+  	float:left;
+ 	height: 605px;
+ 	margin-left: 1px;
+}
+
+.box2{
+	/*background-image:url(../images/ULI_VA.jpg);
+	background-repeat:no-repeat;*/
+  	width: 24.5%;
+  	float:left;
+	height: 395px; 
+	margin-left: 7px;
+}
+
+.box3{
+	/*background-image:url(../images/Buildings.jpg);
+	background-repeat:no-repeat;*/
+	width: 24.5%;
+  	float:left;
+  	height: 202px; 
+	margin-top: 403px;
+	margin-left: -292px;
+} 
+
+.box4{
+	/*background-image:url(../images/maine%20poster_6_2-1.jpg);
+	background-repeat:no-repeat;*/
+	width: 24.5%;
+  	float:left;
+   	height: 250px; 
+	margin-left: 7px;
+}
+
+.box5{
+	/*background-image:url(../images/cal.jpg);
+	background-repeat:no-repeat;*/
+	width: 24.5%;
+  	float:left;
+	height: 348px;
+	margin-top: 257px;
+	margin-left: -292px;
+}
+
+.box6{
+	/*background-image:url(../images/cats.jpg);
+	background-repeat:no-repeat;*/
+	width: 24.5%;
+  	float:left;
+  	height: 300px;
+	margin-top: -605px;
+	margin-left: 897px;
+}
+
+.box7{
+	/*background-image:url(../images/sp.jpg);
+	background-repeat:no-repeat;*/
+	width: 24.5%;
+  	float:left;
+    height: 298px; 
+	margin-top: -298px;
+	margin-left:  897px;
+} 
+
+.image1{
+	postion:absolute;
+	margin-top: 50%;
+	display:none;
+} 
+
+.image3{
+	postion:absolute;
+	margin-top: 20%;
+	display:none;
+} 
+
+.image5{
+	postion:absolute;
+	margin-top: 70%;
+	display:none;
+}
+
+main a:link{
+  	background-color: #a6ce38;
+}
+
+main a:visited{
+  	background-color: #a6ce38;
+}
+
+main a:hover{
+	background-color: #ec208b;
+	opacity: .8;
+  	transition: background .8s ease-in;
+}
+
+main a:hover h3{
+  	color:white;
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	line-height: 55px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: .8em;
+	transition: background .5s ease-in;
+}
+
+main a:active {
+  	background-color: #ec208b;
+} 
+
+footer{
+  	background-color: white;
+	padding: 50px 0;
+  	height: 30px;
+  	width: 100%;
+	margin: 0 auto;
+  	text-align:center; 
+}
+
+footer a:link{
+	color:#BBDD40;
+}
+
+footer a:visited{
+	color:#BBDD40;
+}
+
+footer a:hover{
+	color: #ED218B;
+  	border-bottom: 1px solid #BBDD40;
+  	padding-bottom: 3px;
+}
+
+footer a:active{
+	color: #ED218B;
+  	border-bottom: 1px solid #BBDD40;
+  	padding-bottom: 3px
+}
+
+.sociallink{
+	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 
+	font-weight: 100;
+	color: #BBDD40;
+	font-size: .8em;
+	letter-spacing: 6px;
+	margin: 0 40px;
+	text-transform: uppercase;
+ }
+
+.copyright{
+  	font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; 	font-weight: 100;
+  	color: gray;
+	font-size: .6em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+  	line-height: 60px; 
+  	background-color:white;
+ 	padding-bottom:20px;
+}
+
+img{ 
+  display:block;
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 300px;
+} 
+
+@media only screen and (max-width:1234px) {
+	main{
+		margin-left: 154px;
+	}
+
+	.box1{
+		width: 35%;
+		margin-left: 1px;
+	} 
+	
+	.box2{
+		width: 35%;
+		margin-left: 7px;
+	}
+
+	.box3{
+		width: 35%;
+		margin-top: 403px;
+		margin-left: -417px;
+	} 
+	.box4{
+		width: 35%;
+		margin-top:8px; 
+		margin-left: 1px;
+	}
+	
+	.box5{
+		width: 35%;
+		margin-top: 266px;
+		margin-left: -418px;
+	}
+
+	.box6{
+		width: 35%;
+		margin-top: -606px;
+		margin-left: 426px;
+	}
+	
+	.box7{
+		width: 35%;
+		margin-top: -298px;
+		margin-left:  426px;
+	} 
+}
+
+@media only screen and (max-width:1040px) {
+	header{
+		margin-left: 200px;
+		width: 42.3%;
+	}
+
+	#slogan{
+		margin-left: -274px;
+	}
+	
+	nav {	
+		margin-left: -269px;
+	}
+	
+	main{
+		margin-left: 22px;
+	}
+		
+	#logo{ 
+	  width: 87%;
+	  margin-top: 300px;
+	} 
+}
+
+@media only screen and (max-width:901px) {
+	header{
+		margin-left: 76px;
+		width: 42.3%;
+	}
+
+	#slogan{
+		margin-left: -520px;
+	}
+	
+	nav {	
+		margin-left: -516px;
+	}
+	
+	nav a:hover{
+		background-color: #a6ce38;
+		padding: 7px 2px;
+		transition: background .5s ease-in;
+		border-bottom:none;
+	}
+	
+	.box1{
+		width: 50%;
+	} 
+	
+	.box2{
+		width: 50%;
+		margin-left: 1px;
+		margin-top:7px;
+	}
+
+	.box3{
+		width: 50%;
+		margin-top: 409px;
+		margin-left: -596px;
+	} 
+	.box4{
+		width: 50%;
+		margin-top:7px; 
+		margin-left: 1px;
+	}
+	
+	.box5{
+		width: 50%;
+		margin-left: -596px;
+		margin-top:265px;
+	}
+
+	.box6{
+		width: 50%;
+		margin-top: 7px;
+		margin-left: 1px;
+	}
+	
+	.box7{
+		width: 50%;
+		margin-top: 7px;
+		margin-left:  1px;
+	} 
+	
+	#logo{ 
+		margin-left: -90px;
+	} 
+}
+
+@media only screen and (max-width:655px) {
+	main{
+		margin-left: 158px;
+	}
+	
+	.box1{
+		float:none;
+		display: block;
+		width: 25%;
+	} 
+	
+	
+	.box2{
+		float:none;
+		display: block;
+		width: 25%;
+		margin-left: 1px;
+		margin-top:7px;
+	}
+
+	.box3{
+		float:none;
+		display: block;
+		width: 25%;
+		margin-top: 7px;
+		margin-left: 1px;
+	} 
+	.box4{
+		float:none;
+		display: block;
+		width: 25%;
+		margin-top:7px; 
+		margin-left: 1px;
+	}
+	
+	.box5{
+		float:none;
+		display: block;
+		width: 25%;
+		margin-left: 1px;
+		margin-top: 7px;
+	}
+
+	.box6{
+		float:none;
+		display: block;
+		width: 25%;
+		margin-top: 7px;
+		margin-left: 1px;
+	}
+	
+	.box7{
+		float:none;
+		display: block;
+		width: 25%;
+		margin-top: 7px;
+		margin-left:  1px;
+	} 
+	
+	#logo{ 
+	  margin-left: 261px;
+	} 
+	
+	.sociallink{
+		display:block;
+		padding: 8px;
+	 }
+	 
+	footer{
+		height: 143px;
+	}
+	
+	footer a:hover{
+		border-bottom: none;
+	}
+	
+	#logo{ 
+		margin-left: -200px;
+	}
+}
+
+@media only screen and (max-width:607px) {
+	header{
+		border: none;
+		margin-left: 45px;
+		margin-top: -69px;
+		padding-bottom: 0px;
+	}
+	#slogan{
+		display:none;
+	}
+		
+	label{
+		display: block;
+	    margin-left: -9px;
+	}
+
+	nav a {
+		width: auto;
+		padding: .25em 0;
+		display: none;
+		background-color:none;   
+		margin-left: 0px;
+	}
+
+	nav:hover a {
+		display: block;
+		background-color:none;
+		
+	}
+	
+	main{
+		margin-left: 139px;
+		margin-top: -33px;
+	}
+	
+}
+
+@media only screen and (max-width:532px) {
+	header{
+		margin-left: -49px;
+		font-size: 12px;
+	}
+	
+	#title{
+		font-size: 194%;
+	}
+	
+	hr{
+		width: 71%;
+	}
+	
+	main{
+	    margin-left: 48px;
+	}
+	
+	label{
+		margin-left: -188px;
+	}
+	
+	nav a {
+		margin-left: -182px;
+	}
+	
+	#logo{ 
+	    margin-left: -27%;
+	}
+}
